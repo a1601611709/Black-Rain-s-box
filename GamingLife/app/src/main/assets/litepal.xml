@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="GamingLife"></dbname>
+
+    <version value="27"></version>
+
+    <list>
+        <mapping class="com.example.gaminglife.Incident"></mapping>
+        <mapping class="com.example.gaminglife.Goal" ></mapping>
+        <mapping class="com.example.gaminglife.StageGoal" ></mapping>
+        <mapping class="com.example.gaminglife.User" ></mapping>
+        <mapping class="com.example.gaminglife.Picture" ></mapping>
+    </list>
+</litepal>

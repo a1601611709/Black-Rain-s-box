@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edit_name_subtask_1" type="id" >edit_name_subtask_1</item>
+    <item name="edit_name_subtask_2" type="id" >edit_name_subtask_2</item>
+    <item name="edit_name_subtask_3" type="id" >edit_name_subtask_3</item>
+    <item name="edit_name_subtask_4" type="id" >edit_name_subtask_4</item>
+    <item name="edit_name_subtask_5" type="id" >edit_name_subtask_5</item>
+    <item name="edit_name_subtask_6" type="id" >edit_name_subtask_6</item>
+    <item name="edit_name_subtask_7" type="id" >edit_name_subtask_7</item>
+    <item name="edit_name_subtask_8" type="id" >edit_name_subtask_8</item>
+    <item name="edit_name_subtask_9" type="id" >edit_name_subtask_9</item>
+    <item name="edit_name_subtask_10" type="id" >edit_name_subtask_10</item>
+    <item name="text_deadline_subtask_1" type="id" >text_name_subtask_1</item>
+    <item name="text_deadline_subtask_2" type="id" >text_name_subtask_2</item>
+    <item name="text_deadline_subtask_3" type="id" >text_name_subtask_3</item>
+    <item name="text_deadline_subtask_4" type="id" >text_name_subtask_4</item>
+    <item name="text_deadline_subtask_5" type="id" >text_name_subtask_5</item>
+    <item name="text_deadline_subtask_6" type="id" >text_name_subtask_6</item>
+    <item name="text_deadline_subtask_7" type="id" >text_name_subtask_7</item>
+    <item name="text_deadline_subtask_8" type="id" >text_name_subtask_8</item>
+    <item name="text_deadline_subtask_9" type="id" >text_name_subtask_9</item>
+    <item name="text_deadline_subtask_10" type="id" >text_name_subtask_10</item>
+    <item name="edit_context_subtask_1" type="id" >edit_context_subtask_1</item>
+    <item name="edit_context_subtask_2" type="id" >edit_context_subtask_2</item>
+    <item name="edit_context_subtask_3" type="id" >edit_context_subtask_3</item>
+    <item name="edit_context_subtask_4" type="id" >edit_context_subtask_4</item>
+    <item name="edit_context_subtask_5" type="id" >edit_context_subtask_5</item>
+    <item name="edit_context_subtask_6" type="id" >edit_context_subtask_6</item>
+    <item name="edit_context_subtask_7" type="id" >edit_context_subtask_7</item>
+    <item name="edit_context_subtask_8" type="id" >edit_context_subtask_8</item>
+    <item name="edit_context_subtask_9" type="id" >edit_context_subtask_9</item>
+    <item name="edit_context_subtask_10" type="id" >edit_context_subtask_10</item>
+    <item name="save_subtask_data" type="id" >save_subtask_data</item>
+</resources>

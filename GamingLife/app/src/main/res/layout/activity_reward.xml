@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <Button
+        android:id="@+id/experience_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#66CD00"
+        android:text="Experience"/>
+    <Button
+        android:id="@+id/CG_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/experience_button"
+        android:textColor="#4876FF"
+        android:text="Your reward CG"/>
+
+</RelativeLayout>

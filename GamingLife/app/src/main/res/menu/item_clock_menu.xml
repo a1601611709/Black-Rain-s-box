@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/delete"
+        android:title="remove"
+        />
+    <item
+        android:id="@+id/set"
+        android:title="alter"/>
+    <item
+        android:id="@+id/achieve"
+        android:title="achieve" />
+</menu>

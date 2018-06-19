@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="20dp"
+    android:paddingTop="140dp"
+    android:paddingLeft="20dp"
+    android:background="@drawable/task_set">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|left"
+        android:textSize="24sp"
+        android:textColor="#FFF"
+        android:text="Please input the name of task"/>
+    <EditText
+        android:id="@+id/edit_task_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Type here"
+        android:maxLines="2"
+        android:background="#fee06b"/>
+
+    <TextView
+        android:id="@+id/task_deadline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|left"
+        android:textSize="24sp"
+        android:textColor="#FFF"
+        android:text="Please input the deadline"/>
+    <TextView
+        android:id="@+id/text_view_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle1"
+        android:text="Click me to call the calendar"
+        android:padding="20dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/stage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|left"
+        android:textSize="24sp"
+        android:textColor="#FFF"
+        android:text="Please set the number of subTask"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/number_subTask"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:entries="@array/number"
+            android:background="@drawable/button_pattern1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <!--<Button
+        android:id="@+id/add_stage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"/>-->
+    <!--<TextView
+        android:id="@+id/style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|left"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:text="Please input style of task"/>
+    <EditText
+        android:id="@+id/style_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Type style of task here"
+        android:maxLines="2"/>-->
+    <!--<Button
+        android:id="@+id/add_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"/>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#FFF"
+        android:text="Type something here to describe your sub-tasks" />
+    <EditText
+        android:id="@+id/add_task_context"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:hint="Type here"
+        android:textColorHighlight="@color/colorPrimary"
+        android:maxLines="2"
+        android:background="#fee06b" />
+
+    <Button
+        android:id="@+id/saveData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:background="@drawable/button_selector1"/>
+
+</LinearLayout>

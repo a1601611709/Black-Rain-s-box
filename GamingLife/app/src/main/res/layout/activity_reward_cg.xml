@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shop">
+
+    <Button
+        android:text="1 coin   picture"
+        android:textAllCaps="false"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:background="@drawable/button_pattern5"
+        android:textColor="#FFF"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp" />
+
+    <Button
+        android:text="2 coins picture"
+        android:textAllCaps="false"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:background="@drawable/button_pattern5"
+        android:textColor="#FFF"
+        android:layout_marginBottom="13dp"
+        android:layout_above="@+id/button3"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3" />
+
+    <Button
+        android:text="4 coins picture"
+        android:textAllCaps="false"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:background="@drawable/button_pattern5"
+        android:textColor="#FFF"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text=" this is name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:id="@+id/textView4"
+        android:layout_marginBottom="250dp"
+        android:layout_above="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button" />
+
+    <TextView
+        android:text="this is coins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+
+</RelativeLayout>

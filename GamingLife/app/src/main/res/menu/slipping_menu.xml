@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/ct_item"
+            android:title="Completed Tasks"/>
+
+        <item
+            android:id="@+id/cc_item"
+            android:title="Completed Clocks"/>
+
+        <item
+            android:title=""/>
+
+        <item
+            android:id="@+id/help_item"
+            android:title="Need Help?"/>
+        <item
+            android:id="@+id/au_item"
+            android:title="About Us..."/>
+
+    </group>
+</menu>
